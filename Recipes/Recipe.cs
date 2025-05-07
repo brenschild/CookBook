@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CookBookSolution.Recipes.Ingredients;
+﻿using CookBookSolution.Recipes.Ingredients;
 
 namespace CookBookSolution.Recipes;
 
- public class Recipe
+public class Recipe
 {
     public IEnumerable<Ingredient> Ingredients { get; }
     
